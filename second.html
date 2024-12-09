@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tietoa | Salibandy World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Salibandy World</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="second.html">Tietoa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="third.html">Videot</a></li>
+                        <li class="nav-item"><a class="nav-link" href="fourth.html">Tapahtumat</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <div class="text-center">
+            <h2>Tietoa Salibandy:stä</h2>
+            <p>Salibandy on 1960-luvulla Ruotsissa kehitetty mailapeli, joka on ottanut vaikutteita jääkiekosta ja kaukalopallosta.</p>
+        </div>
+    
+        <!-- Kortit: Suosio Suomessa ja Kansainvälisyys -->
+        <section class="row mt-4">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary">Suosio Suomessa</h3>
+                        <p class="card-text">Salibandy on Suomen toiseksi harrastetuin palloilulaji noin 354 000 harrastajallaan.</p>
+                        <img src="Kuvat/Salibandy_Suomessa.jpg" alt="Salibandy Suomessa" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary">Kansainvälisyys</h3>
+                        <p class="card-text">Lajia pelataan yli 60 maassa ja se on kasvattanut suosiotaan Euroopassa, Aasiassa ja Pohjois-Amerikassa.</p>
+                        <img src="Kuvat/kansainvälinen_salibandy2.jpg" alt="Kansainvälinen salibandy" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Taulukko tilastoille -->
+        <section class="mt-5">
+            <h3 class="text-center">Mitallitaulukko</h3>
+            <table class="table table-bordered table-striped mt-3">
+                <thead class="table-dark">
+                    <tr>
+                        <th>
+                            Maa
+                        </th>
+                        <th>
+                            Kulta
+                            <img src="Kuvat/gold_medal.jpg" alt="">
+                        </th>
+                        <th>
+                            Hopea
+                            <img src="Kuvat/Silver_medal.jpg" alt="">
+                        </th>
+                        <th>
+                            Pronssi
+                            <img src="Kuvat/bronze_medal.jpg" alt="">
+                        </th>
+                        <th>
+                            yhteensä
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ruotsi</td>
+                        <td>10</td>
+                        <td>4</td>
+                        <td>0</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>Suomi</td>
+                        <td>4</td>
+                        <td>7</td>
+                        <td>3</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>Tshekki</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Sveitsi</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Norja</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+    
+        <!-- Painike -->
+        <div class="text-center mt-4">
+            <a href="https://salibandy.fi" target="_blank" class="btn btn-primary">Lue lisää salibandystä</a>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Salibandy World | Suunniteltu salibandyn ystäville</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
